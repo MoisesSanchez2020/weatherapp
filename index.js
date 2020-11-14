@@ -1,5 +1,5 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -22,16 +22,16 @@ app.listen(app.get('port'), function() {
 
 
 /*
-Core Functions for the Postage Calculations
+ Functions for the Postage Calculations
 */
 function getRate(req, res) {
 
 	console.log("getting postage");
 
-	var weight = req.query.weight;
-	var mailType = req.query.mailType;
+	const weight = req.query.weight;
+	const mailType = req.query.mailType;
 
-	var price = calculateRate(weight, mailType);
+	const price = calculateRate(weight, mailType);
 
 	params = {
 		weight: weight,

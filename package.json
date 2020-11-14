@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "cs313-week-9",
   "version": "0.2.6",
-  "description": "A sample Node.js app using Express 4",
+  "description": "This is a rate calculator",
   "engines": {
     "node": "6.10.2"
   },
@@ -11,20 +11,25 @@
   },
   "dependencies": {
     "ejs": "2.5.6",
-    "express": "4.15.2",
+    "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/postal-rate"
+    "url": "git+https://github.com/heroku/postal-rate.git"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "license": "MIT",
+  "license": "",
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/heroku/postal-rate/issues"
+  },
+  "homepage": "https://github.com/heroku/postal-rate#readme",
+  "author": "Moises Sanchez"
 }
