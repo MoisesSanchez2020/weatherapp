@@ -23,7 +23,7 @@
     "heroku",
     "express"
   ],
-  "license": "",
+  "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.6"
   },
