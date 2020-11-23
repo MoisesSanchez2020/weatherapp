@@ -13,9 +13,9 @@
     <a href="/" class="lang-logo">
       <img src="/logo2.png">
     </a>
-    <h1>Postage Calculator</h1>
-    <p>This app it has been create with node.js and deploy with heroku</p>
-    <p>Check my repository if you have questions</p>
+    <h1>Weather Search</h1>
+    <!--<p>This app it has been create with node.js and deploy with heroku</p>
+    <p>Check my repository if you have questions</p>-->
     <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started with Node</a>
     <a type="button" class="btn btn-lg btn-primary" href="https://github.com/MoisesSanchez2020/postal-rate"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
   </div>
@@ -27,8 +27,8 @@
   <hr>
    <!-- row -->
 
-  <h1>Postage Calculator</h1>
-	<form method="get" action="/calculatePostage">
+  <h1>Weather Search</h1>
+	<!--<form method="get" action="/calculatePostage">
 		<label for="weight">Package Weight</label>
 		<input type="text" name="weight" id="weight" />
 
@@ -44,9 +44,21 @@
 		</select>
 
 		<button type="submit">Calculate</button>
-	</form>
+  </form>-->
+  <div id="first">
+		<form action="/weather" method="post">
+			<h3>Forecast location</h3>
+			<label for="city">City: </label>
+			<input type="text" name="city" id="city"><br>
+			<input type="submit" name="submit" value="Search">
+		</form>
+
+	</div>
+
+
    <div class="alert alert-info text-center" role="alert">
-  </div>
+   </div>
+  
 </div>
 
 
